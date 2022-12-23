@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+}
+.container {
+  border-radius: 20px;
+  overflow: hidden;
+  border-radius: 10px;
+  border: 2px solid black;
+  display: inline-grid;
+  grid-template-columns: repeat(8, 70px);
+  grid-template-rows: repeat(8, 70px);
+  
+  /* gap: 1px; */
+}
+.container :hover{
+  border-radius: 80px;
+  transition: 40px;
+}
+.item-1 {
+  background-color: #FFCE9E;
+  /* color: black; */
+  
+  /* border: 2px solid black; */
+}
+.item-2 {
+  background-color:#D18B47;
+  /* color: white */
+}
+.item {
+  text-align: center;
+  line-height: 70px;
+  vertical-align: middle;
+}
+.pawn {
+  color: white;
+  filter: drop-shadow(0 0 3px rgba(0, 0, 0, 1));
+  overflow: hidden;
+
+}

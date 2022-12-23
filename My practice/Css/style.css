@@ -1,0 +1,16 @@
+h2 :hover{
+    color: red;
+}
+
+.about-me{
+    color: blue; 
+}
+li:last-child {
+        color: steelblue;
+}
+#google-link:link{
+color: blue;
+}
+#google-link:visited{
+    color: red
+}

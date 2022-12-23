@@ -1,0 +1,96 @@
+body {
+    background-color: rgb(22, 1, 22);
+  }
+  .border {
+    height: 50px;
+    width: 1500px;
+    background-color: rgb(24, 2, 46);
+    border: 1px solid;
+    bottom: 20px;
+    padding-left: 10px;
+  }
+  .Ramz {
+    color: beige;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    padding-left: 50px;
+    position: relative;
+    bottom: 10px;
+    font-size: 25px;
+  }
+  .nav {
+    position: relative;
+    bottom: 40px;
+    padding-left: 450px;
+  }
+  .nav a {
+    margin-inline: 10px;
+    color: beige;
+    text-decoration: none;
+    position: relative;
+    bottom: 10px;
+  }
+  .button {
+    background-color: rgba(173, 46, 7, 0.911);
+    height: 40px;
+    width: 70px;
+    position: relative;
+    bottom: 80px;
+    position: relative;
+    left: 1200px;
+    color: #fff;
+  }
+  .hello {
+    color: beige;
+    font: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    position: relative;
+    top: 160px;
+  }
+  .developer {
+    color: beige;
+    font-size: 80px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+  "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    position: relative;
+    bottom: 80px;
+  
+    
+  }
+  .senior {
+    color: beige;
+    font-size: 12px;
+    position: relative;
+    bottom: 120px;
+  }
+  .download {
+    background-color: rgba(173, 46, 7, 0.911);
+    height: 50;
+    width: 80px;
+    position: relative;
+    bottom: 90px;
+    color: #fff;
+  }
+  .Contact {
+    height: 50;
+    width: 80px;
+    background-color: rgb(22, 1, 22);
+    position: relative;
+    bottom: 90px;
+    margin-inline: 20px;
+    color: #fff;
+  }
+  .vertical_line {
+    display: inline-block;
+    height: 70px;
+    border-left: 1px solid#fff;
+    padding-left: 50px;
+    position: relative;
+    top: 80px;
+  }
+  .myPic{
+      width: 50%;
+      height: 50%;
+      margin-left: 600px;
+      position: relative;
+      bottom: 500px;
+  }  

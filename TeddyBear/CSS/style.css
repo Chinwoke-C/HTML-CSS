@@ -1,0 +1,172 @@
+.teddy_body {
+  background-color: black;
+  height: 500px;
+  width: 400px;
+  position: relative;
+}
+.teddy_body div{
+    position: absolute;
+}
+
+.left_ear {
+  background-color: rgb(151, 50, 920);
+  right: 50px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 25px white inset;
+  /* position: absolute; */
+}
+
+.right_ear {
+  background-color: rgb(151, 50, 920);
+  left: 50px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 25px white inset;
+  /* position: absolute; */
+}
+
+.big_head{
+    background-color: white;
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.eye_one{
+    background-color:rgb(255, 255,255);
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    box-shadow: 2px -2px 0 12px inset;
+    right: 9.5em;
+    top: 100px;
+    z-index: 1;
+    animation-name: eye_blink;
+    animation-iteration-count: 2s;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation: eye_blink 1.5s infinite;
+    /* position: absolute; */
+
+}
+.eye_two{
+    background-color:rgb(255, 255,255);
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    box-shadow: 2px -2px 0 12px  inset;
+    left: 9.5em;
+    top: 100px;
+    z-index: 1;
+    animation-name: eye_blink;
+    animation-iteration-count: 2s;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation: eye_blink 1.5s infinite;
+    /* position: absolute; */
+}
+@keyframes eye_blink{
+    20%{
+        transform: scaleY(1);
+    }
+    22%{
+        transform: scaleY(1);
+    }
+    26%{
+        transform: scaleY(1);
+    }
+    28%{
+        transform: scaleY(1);
+        
+    }
+    30%{
+        transform: scaleY(1);
+    }
+    65%{
+        transform: scaleY(1);
+    }
+    67%{
+        transform: scaleY(0.2);
+    }
+    
+    69%{
+        transform: scaleY(1);
+    }
+
+}
+.big_mouth_one{
+    /* background-color: brown; */
+    width: 70px;
+    height: 50px;
+    border: 5px solid brown;
+    border-radius: 50%;
+    border-bottom: 0;
+    border-top: 0;
+    border-left: 0;
+    transform: rotate(deg);
+    top: 55px;
+    left: 6px;
+    z-index: 1;
+   
+}
+.big_mouth_two{
+   /* background-color: brown; */
+   width: 70px;
+   height: 50px;
+   border: 5px solid brown;
+   border-radius: 50%;
+   border-bottom: 0;
+   border-top: 0;
+   border-left: 0;
+   transform: rotate(-210deg) 
+   translate(-10px, -5px);
+   top: 40px;
+   right: 5px;
+   z-index: 1;
+}
+
+
+.big_mouth {
+    background-color: rgb(236, 245, 204);
+    border-radius: 50%;
+    height: 115px;
+    width: 145px;
+    top: 130px;
+    margin: auto;
+    right: 0;
+    left: 13px;
+    z-index: 1;
+  }
+  
+
+  
+.big_nose{
+    margin: auto;
+  width: 70px;
+  height: 60px;
+  background-color:rgb(151, 50, 920);
+  border-radius: 50%;
+  top: 20px;
+  left: 9px;
+  right: 0px;
+  z-index: 1;
+}
+
+.nose_dot {
+    margin-left: 45px;
+    height: 10px;
+    width: 15px;
+    background-color:rgb(236, 245, 204);
+    border-radius: 50%;
+    top: 20px;
+    left: 33px;
+    right: 0;
+    z-index: 1;
+
+}
